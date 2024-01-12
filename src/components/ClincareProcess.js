@@ -49,10 +49,12 @@ const ClincareProcess = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center text-white">
-      <div className="text-center">
-        <h2>Simple process, great results</h2>
-        <p>
+    <div className="flex flex-col gap-14 items-center  text-white">
+      <div className="text-center m-auto">
+        <h2 className="text-4xl font-bold leading-loose">
+          Simple process, great results
+        </h2>
+        <p className="text-lg w-2/3 mx-auto">
           Use the cards below to learn how Clin-Care Agency can help your loved
           ones.
         </p>
