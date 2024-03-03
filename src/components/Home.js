@@ -1,12 +1,12 @@
 import React from "react";
 import HomeHeadline from "./HomeHeadline";
 import ServicesSummary from "./ServicesSummary";
-import WhyUs from "./WhyUs";
 import ClincareProcess from "./ClincareProcess";
+import WhyUs from "./WhyUs";
 
 const Home = () => {
   return (
-    <div className="py-20 font-dmSans">
+    <div className="pt-20 font-dmSans">
       <section className=" px-20">
         <HomeHeadline />
       </section>
