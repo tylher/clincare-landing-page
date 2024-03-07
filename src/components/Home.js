@@ -3,6 +3,8 @@ import HomeHeadline from "./HomeHeadline";
 import ServicesSummary from "./ServicesSummary";
 import ClincareProcess from "./ClincareProcess";
 import WhyUs from "./WhyUs";
+import Blog from "./Blog";
+import Reviews from "./Reviews";
 
 const Home = () => {
   return (
@@ -18,6 +20,12 @@ const Home = () => {
       </section>
       <section className="py-20 px-20 bg-[#012A51]">
         <ClincareProcess />
+      </section>
+      <section className="p-20">
+        <Blog />
+      </section>
+      <section className="overflow-hidden">
+        <Reviews />
       </section>
     </div>
   );

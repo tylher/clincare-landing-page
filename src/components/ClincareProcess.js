@@ -61,7 +61,7 @@ const ClincareProcess = () => {
       </div>
 
       <div className="timeline overflow-hidden">
-        <section className="section">
+        <section className="section ">
           <div class="circle"></div>
           <div className="line"></div>
           <div className="inner-line-container">
